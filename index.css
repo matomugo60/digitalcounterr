@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#value {
+  font-size: 5rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.decrease {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.reset {
+  background-color: #333;
+  color: white;
+}
+
+.increase {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
